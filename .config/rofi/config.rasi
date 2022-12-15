@@ -1,0 +1,31 @@
+configuration {
+  display-drun: "Application";
+  drun-display-format: "{icon} {name}";
+  modi: "window,run,drun";
+  font: "Hack Regular Nerd Font Complete 15";
+  show-icons: true;
+  icon-theme: "Papirus";
+}
+
+@theme "/usr/share/rofi/themes/dracula.rasi"
+
+window {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+element {
+  padding: 5px 10px;
+}
+
+element selected {
+  border-radius: 10px;
+}
+
+element-icon {
+  size: 30;
+}
+
+listview {
+  columns: 2;
+}
