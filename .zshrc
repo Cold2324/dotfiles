@@ -111,3 +111,6 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias dotfiles="git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
+alias ls="exa --group-directories-first --icons"
+alias cat="bat"
+alias tree="exa -T"
