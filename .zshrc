@@ -117,6 +117,7 @@ alias ls="exa --group-directories-first --icons"
 alias cat="bat"
 alias tree="exa -T"
 alias top="htop"
+alias deb="ar -x "
 
 export PATH=/bin/exercism:$PATH
 export PATH=/opt/lampp/bin:$PATH
