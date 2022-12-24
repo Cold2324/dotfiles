@@ -110,16 +110,27 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Basic aliases
 alias dotfiles="git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
 alias ls="exa --group-directories-first --icons"
 alias cat="bat"
 alias tree="exa -T"
 alias top="htop"
-alias deb="ar -x "
+alias deb="ar -x"
+# Basic aliases
 
+# Git aliases
+alias gaa="git add ."
+alias gcm="git commit -m"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gs="git status -s"
+# Git aliases
+
+# Env variables
 export PATH=/bin/exercism:$PATH
 export EDITOR=/usr/bin/nvim
 #export PATH=/opt/lampp/bin:$PATH
+# Env variables
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
