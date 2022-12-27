@@ -1,5 +1,5 @@
-[submodule ".config/awesome"]
-  path = .config/awesome
+[submodule ".config/my_awesome"]
+  path = .config/my_awesome
   url = https://github.com/Cold2324/awesome_configuration.git
 [submodule ".config/nvim"]
   path = .config/nvim
