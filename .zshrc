@@ -1,3 +1,5 @@
+neofetch --ascii $HOME/.config/neofetch/phantom.txt
+
 #  +------------------------------------------------------------------------------+
 #  |Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.|
 #  +------------------------------------------------------------------------------+
@@ -30,6 +32,7 @@ alias cat="bat"
 alias tree="exa -T"
 alias top="htop"
 alias deb="ar -x"
+alias neofetch="neofetch --ascii $HOME/.config/neofetch/phantom.txt"
 
 #  +------------------+
 #  | Dotfiles aliases |
