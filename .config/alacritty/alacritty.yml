@@ -20,16 +20,16 @@ window:
 
 font:
   normal:
-    family: Hack
+    family: MesloLGS NF
     style: Regular
   bold:
-    family: Hack
+    family: MesloLGS NF
     style: Bold
   italic:
-    family: Hack
+    family: MesloLGS NF
     style: Italic
   bold_italic:
-    family: Hack
+    family: MesloLGS NF
     style: Bold Italic
   size: 16.0
 
