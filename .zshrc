@@ -57,8 +57,9 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 #  +---------------+
 export PATH=/bin/exercism:$PATH
 export PATH=~/.deno/bin/deno:$PATH
+export PATH=$PATH:/usr/local/go/bin
 export EDITOR=/usr/bin/nvim
-
+alias php=/opt/lampp/bin/php
 #  +----------------------------+
 #  | Node Version Manager "NVM" |
 #  +----------------------------+
